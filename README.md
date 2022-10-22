@@ -1,5 +1,5 @@
 # NHIS-HMO-Record-Keeper
-![alt text](/shot1.png?raw=true)
+![alt text](/scrnshot.png?raw=true)
 ## This is one of my very first projects written many years ago.
 ## Many of the programming approach in this work is totally erronous and I have not had time to rewrite the program.
 ## I hope this will in some way help those who starting to explore python tkinter and sqlite3.
