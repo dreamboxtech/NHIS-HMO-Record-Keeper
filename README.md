@@ -18,4 +18,4 @@ that is because I did not ask the tables to create if not exists.
 ! HMO: Health Management Organization
 ```
 
-![alt](/shot1.png, raw=True)
+![alt text](/shot1.png?raw=true)
