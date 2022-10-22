@@ -8,7 +8,7 @@ import tkinter as tk
 import time
 import ctypes
 
-myappid = 'dreamboxtech.nhis=recordkeeper.mainwindow.2.02'
+myappid = 'dreamboxtech.nhisrecordkeeper.mainwindow.2.02'
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 
