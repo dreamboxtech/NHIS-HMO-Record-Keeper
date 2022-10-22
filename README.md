@@ -1,6 +1,6 @@
 # NHIS-HMO-Record-Keeper
 ![alt text](/scrnshot.png?raw=true)
-## This is one of my very first projects written many years ago.
+## This is one of my very first projects written some years ago.
 ## Many of the programming approaches in this work is totally wrong and I have not had time to rewrite the program.
 ## I hope this will in some way help those who are starting to explore python tkinter and sqlite3.
 
