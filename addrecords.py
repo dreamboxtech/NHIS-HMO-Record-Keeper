@@ -6,8 +6,10 @@ from tkcalendar import *
 import sqlite3
 import tkinter as tk
 import time
+import ctypes
 
-
+myappid = 'dreamboxtech.nhis=recordkeeper.mainwindow.2.02'
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 
 window =  tk.Tk()
@@ -15,7 +17,6 @@ window.configure(bg ="#00c76a")
 window.title("Record Addition")
 window.geometry("13500x750+0+0")
 window.iconbitmap(r'C:/Users/TOSHIBA/Desktop/tt/NHIS/logo.ico')
-
 
 
 
@@ -194,15 +195,6 @@ genlabel.grid(row = 5, column = 2, sticky = W)
 genlabeltxt = ttk.Combobox(dataframeleft, font= ('times new roman', 11), textvariable= GENDER, width =13, value = gend) 
 genlabeltxt.grid(row = 5, column = 3, sticky = W)
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def AddHmo():
 	if (len(HMO_NAME.get()) != 0 ):
@@ -645,16 +637,6 @@ def drugtable(DRNAME, DOSAGE, STRENGTH, PRESENTATION, DPRICE):
 	con.commit()
 	con.close()
 
-
-
-
-
-
-
-
-
-
-
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 chkpr = IntVar()
 chksp = IntVar()
@@ -722,26 +704,7 @@ def execute():
 	else:
 		tk.Label(dataframeleft, text = "Make single selection please", fg = 'red',  bd =0,  height = 1, width = 24, anchor ='w', bg = 'orange').grid(row =9, column = 1, sticky = W)
 
-
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 reghmo = Button(dataframeleft, text = 'Register HMO', font = ('arial', 10), command=AddHmo, width = 12, height = 1, bd = 2)
