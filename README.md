@@ -8,18 +8,20 @@ This is a windows application.
 The app performs basic CRUD operation with python, tkinter and sqlite3.
 
 The app:
--- records HMOs
--- records hospital patients as either 
-    -- principal (main record holder)
-    -- spouse
-    -- children
-    -- extra
-    -- dependant
--- registers hospital services and their price
--- registers drugs purchased by hospital and their price
+- records HMOs
+- records hospital patients as either 
+    - principal (main record holder)
+    - spouse
+    - children
+    - extra
+    - dependant
+- registers hospital services and their price
+- registers drugs purchased by hospital and their price
 
 The records are shown on the right and can be update and deleted
 
+There is a concluding part of this project that handle hospital transactions based on data generated
+from this app. I will upload that much later in a new repository as a separate project.
 
 ### Backend - python, sqlite3
 ### Frontend - tkinter (python)
