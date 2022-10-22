@@ -10,7 +10,7 @@
 - Note: The code will break without the database file (in same path as addrecord.py);  
 that is because I did not ask the tables to create if not exists.
 
-- I leave that to anyone interested to fix, it's a small 
+- I leave that to anyone interested to fix, I believe it's a small one
 ```
 
 ```diff
