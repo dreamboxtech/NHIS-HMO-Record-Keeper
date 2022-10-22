@@ -13,3 +13,7 @@ that is because I did not ask the tables to create if not exists.
 - I leave that to anyone interested to fix, it's a small 
 ```
 
+```diff
+! NHIS: National Health Insurance Scheme
+! HMO: Health Management Organization
+```
